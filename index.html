@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Center for Effective Public Institutions</title>
+  <meta name="description" content="Nonpartisan ideas for a new era of civic progress. Coming 2026." />
+
+  <link rel="icon" href="favicon.ico" sizes="any" />
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+  <meta name="theme-color" content="#0d2240" />
+
+  <link rel="canonical" href="https://effectivepublic.org/" />
+
+  <meta property="og:title" content="Center for Effective Public Institutions" />
+  <meta property="og:description" content="Nonpartisan ideas for a new era of civic progress. Coming 2026." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://effectivepublic.org/" />
+  <meta property="og:site_name" content="Center for Effective Public Institutions" />
+  <meta property="og:image" content="https://effectivepublic.org/og-image.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="Center for Effective Public Institutions — Nonpartisan ideas for a new era of civic progress. Coming 2026." />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Center for Effective Public Institutions" />
+  <meta name="twitter:description" content="Nonpartisan ideas for a new era of civic progress. Coming 2026." />
+  <meta name="twitter:image" content="https://effectivepublic.org/og-image.png" />
+  <meta name="twitter:image:alt" content="Center for Effective Public Institutions — Nonpartisan ideas for a new era of civic progress. Coming 2026." />
+
+  <style>
+    :root {
+      --navy: #0d2240;
+      --ink: #1a1a1a;
+      --muted: #5f6470;
+      --paper: #ffffff;
+      --rule: #e7e7ea;
+
+      --serif: "Iowan Old Style", "Hoefler Text", "Charter", Cambria, Georgia, "Times New Roman", serif;
+      --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; }
+
+    html, body { margin: 0; padding: 0; }
+
+    body {
+      min-height: 100vh;
+      background: var(--paper);
+      color: var(--ink);
+      font-family: var(--sans);
+      font-size: 17px;
+      line-height: 1.55;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      text-rendering: optimizeLegibility;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .page {
+      flex: 1;
+      width: 100%;
+      max-width: 720px;
+      margin: 0 auto;
+      padding: clamp(48px, 8vw, 96px) 28px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+
+    .logo {
+      display: block;
+      width: clamp(220px, 38vw, 360px);
+      height: auto;
+      margin: 0 auto clamp(32px, 5vw, 56px);
+    }
+
+    .visually-hidden {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      white-space: nowrap;
+      border: 0;
+    }
+
+    .tagline {
+      font-family: var(--serif);
+      font-size: clamp(1.2rem, 2.6vw, 1.45rem);
+      font-weight: 400;
+      font-style: italic;
+      color: var(--ink);
+      max-width: 56ch;
+      margin: 0 auto 44px;
+      line-height: 1.4;
+      text-wrap: balance;
+    }
+
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 14px;
+      font-family: var(--sans);
+      font-size: 0.78rem;
+      font-weight: 600;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--navy);
+      margin: 0;
+    }
+    .eyebrow::before,
+    .eyebrow::after {
+      content: "";
+      width: 28px;
+      height: 1px;
+      background: var(--navy);
+      opacity: 0.35;
+    }
+
+    .footer {
+      width: 100%;
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 40px 28px 48px;
+      border-top: 1px solid var(--rule);
+    }
+    .footer p {
+      margin: 0 auto;
+      max-width: 64ch;
+      font-size: 0.78rem;
+      line-height: 1.6;
+      color: var(--muted);
+      text-align: center;
+    }
+    .footer a {
+      color: var(--muted);
+      text-decoration: underline;
+      text-decoration-color: var(--rule);
+      text-underline-offset: 2px;
+    }
+    .footer a:hover { color: var(--navy); text-decoration-color: var(--navy); }
+
+    @media (max-width: 480px) {
+      .page { padding-left: 22px; padding-right: 22px; }
+      .tagline { margin-bottom: 36px; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      * { transition: none !important; }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <h1 class="visually-hidden">Center for Effective Public Institutions</h1>
+
+    <img
+      class="logo"
+      src="EPIC_Logo_1600px.png"
+      alt="Center for Effective Public Institutions"
+      width="1600"
+      height="1600"
+    />
+
+    <p class="tagline">Nonpartisan ideas for a new era of civic progress.</p>
+
+    <p class="eyebrow">Coming 2026</p>
+  </main>
+
+  <footer class="footer">
+    <p>
+      Center for Effective Public Institutions (EPIC) is a project of Players Philanthropy Fund, Inc., a Texas nonprofit corporation recognized by IRS as a tax-exempt public charity under Section 501(c)(3) of the Internal Revenue Code (Federal Tax ID: 27-6601178, <a href="https://ppf.org/pp" rel="noopener">ppf.org/pp</a>). Contributions to Center for Effective Public Institutions (EPIC) qualify as tax-deductible to the fullest extent of the law.
+    </p>
+  </footer>
+</body>
+</html>

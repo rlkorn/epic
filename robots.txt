@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://effectivepublic.org/sitemap.xml
+Sitemap: https://www.effectivepublic.org/sitemap.xml

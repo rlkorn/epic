@@ -1,0 +1,20 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python (the favicon/og-image generator scripts)
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Vercel
+.vercel
